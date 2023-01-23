@@ -1,0 +1,241 @@
+body{
+    font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.8;
+    letter-spacing: 0.08em;
+    color: #1F1F1F;
+    max-width: 320%;
+    background-color: #EEEEEE;
+    position: relative;
+    padding: 0 15px;
+}
+@media screen and (max-width: 672px) {
+    body{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 320px) {
+    body {
+        max-width: 100%;
+    }
+}
+.content{
+    max-width: 642px;
+    width: 100%;
+    margin: 120px auto;
+}
+
+/*-----------------------------------
+topエリア
+-----------------------------------*/
+.top-ttl{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 672px) {
+    .top-ttl{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+}
+.top-inner{
+    overflow: auto;
+}
+.top-table{
+    background-color: #fff;
+    border: 1px solid #333;
+    width: 100%;
+    min-width: 642px;
+    letter-spacing: .025em;
+    line-height: 2;
+    table-layout: fixed;
+    border-collapse: separate;
+}
+.top-table th{
+    word-break: normal;
+    border: 1px solid;
+    padding: 0.5em;
+    vertical-align: middle;
+    text-align: left;
+    background-color: #EEEEEE;
+}
+.top-table td{
+    word-break: normal;
+    border: 1px solid;
+    padding: 0.5em;
+    vertical-align: middle;
+    text-align: left;
+}
+.top-btn{
+    margin: 30px auto 0;
+    max-width: 140px;
+    width: 100%;
+    display: block;
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 12px 0;
+    text-align: center;
+}
+@media screen and (max-width: 672px) {
+    .top-btn{
+        margin: 20px auto 0;
+    }
+}
+
+/*-----------------------------------
+registerエリア
+-----------------------------------*/
+.register{
+    background-color: #fff;
+    padding: 40px 15px;
+    border-radius: 10px;
+}
+.register-ttl{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 672px) {
+    .register-ttl{
+        font-size: 21px;
+        margin-bottom: 15px;
+    }
+}
+.register-input{
+    max-width: 386px;
+    margin: 0 auto 20px;
+    text-align: right;
+}
+@media screen and (max-width: 672px) {
+    .register-input{
+        margin: 0 auto 15px;
+    }
+}
+.register-input label{
+    display: inline-block;
+    margin-right: 15px;
+    text-align: right;
+}
+@media screen and (max-width: 672px) {
+    .register-input label{
+        display: block;
+        margin-right: 0;
+        text-align: left;
+    }
+}
+.register-input input{
+    background-color: #EEEEEE;
+    height: 45px;
+    max-width: 260px;
+    width: 100%;
+    padding: 0 15px;
+    text-align: left;
+}
+@media screen and (max-width: 672px) {
+    .register-input input{
+        height: 40px;
+        max-width: 100%;
+        padding: 0 8px;
+    }
+}
+.register-btn{
+    margin: 30px auto 0;
+    max-width: 140px;
+    width: 100%;
+    display: block;
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 12px 0;
+    text-align: center;
+}
+@media screen and (max-width: 672px) {
+    .register-btn{
+        margin: 20px auto 0;
+    }
+}
+
+/*-----------------------------------
+editエリア
+-----------------------------------*/
+.edit{
+    background-color: #fff;
+    padding: 40px 15px;
+    border-radius: 10px;
+}
+.edit-ttl{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 672px) {
+    .edit-ttl{
+        font-size: 21px;
+        margin-bottom: 15px;
+    }
+}
+.edit-input{
+    max-width: 391px;
+    margin: 0 auto 20px;
+    text-align: right;
+}
+@media screen and (max-width: 672px) {
+    .edit-input{
+        margin: 0 auto 15px;
+    }
+}
+.edit-input label{
+    display: inline-block;
+    margin-right: 20px;
+    text-align: right;
+}
+@media screen and (max-width: 672px) {
+    .edit-input label{
+        display: block;
+        margin-right: 0;
+        text-align: left;
+    }
+}
+.edit-input input{
+    background-color: #EEEEEE;
+    height: 45px;
+    max-width: 260px;
+    width: 100%;
+    padding: 8px 15px;
+    text-align: left;
+}
+@media screen and (max-width: 672px) {
+    .edit-input input{
+        height: 40px;
+        max-width: 100%;
+        padding: 0 8px;
+    }
+}
+.edit-btn{
+    margin: 30px auto 0;
+    max-width: 300px;
+}
+@media screen and (max-width: 672px) {
+    .edit-btn{
+        margin: 20px auto 0;
+        max-width: 260px;
+    }
+}
+.edit-btn-a{
+    max-width: 140px;
+    width: 100%;
+    display: inline-block;
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 12px 0;
+    text-align: center;
+}
+@media screen and (max-width: 672px) {
+    .edit-btn-a{
+        max-width: 120px;
+    }
+}
